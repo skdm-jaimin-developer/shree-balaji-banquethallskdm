@@ -1,0 +1,43 @@
+.connectimg{
+    height: 455px;
+    width:100% ;
+    position: relative;
+    background-color: black;
+}
+.connectimg img{
+    height: 455px;
+    width:100% ;
+    opacity: .5;
+    
+    
+}
+.connectoverlay{
+    color: var(--secondary-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.connectoverlay h1{
+    font-family: var(--head-font);
+}
+.connectoverlay button{
+    display: flex;
+    margin: auto;
+    text-decoration:solid;
+    color: var(--secondry-color);;
+   background-color: var(--primary-color);;
+  
+}
+.connectoverlay button:hover{
+    display: flex;
+    margin: auto;
+    text-decoration:solid;
+    color: var(--secondry-color);;
+   background-color: var(--primary-color);;
+  
+}
+.connectoverlay a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.pdecontainer{
+    background-color: #453F78;
+    color: var(--secondary-color);
+    border-radius: 10px;
+}
+.imgid5{
+    height: 300px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.imgid5:hover{
+    transform: scale(1.1);
+    
+}
+.img6{
+    padding: 10%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.img6:hover{
+    transform: scale(1.1);
+    
+}
+.maraginn{
+    margin-left:0% ;
+    margin-right: 0%;
+}
+#km{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    margin-left: 5px;
+    transition: all ease .4s;
+    text-decoration: none;
+    
+}
+#km:hover{
+    transform: scale(1.1);
+}
+.pdeimage{
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    
+}

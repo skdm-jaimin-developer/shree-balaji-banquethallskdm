@@ -1,0 +1,21 @@
+.homeLine{
+    background-color: var(--secondary-color);
+}
+.servicehead{
+    text-align: center;
+    font-weight: 5;
+    font-size: xx-large;
+    font-family: var(--head-font);
+}
+.headser{
+    text-align: center;
+    font-family: var(--para-font);
+    color: grey;
+}
+.servList{
+    background-color: rgb(241, 235, 235);
+    transition: all ease .2s;
+}
+.servList:hover{
+    background-color: white;
+}

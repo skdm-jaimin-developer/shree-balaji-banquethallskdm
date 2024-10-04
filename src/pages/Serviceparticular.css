@@ -1,0 +1,41 @@
+#imgpreviewmain{
+    display: flex;
+    margin: auto;
+    height: 400px;
+    
+}
+.imgdiv{
+    max-height: 400px !important;
+    width: 100%;
+   
+}
+#imgpreviewsub{
+   display: inline-flex;
+    margin: auto;
+    justify-content: space-between;
+    gap:10px ;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.gallerysection{
+    background-color: var(--secondary-color);
+}
+.gallerysection h2{
+    color: var(--primary-color);
+    margin-top: 5px;
+    font-family: var(--head-font);
+}
+.imgeventsub{
+    max-height: 400px !important;
+    width: 100%;
+}
+.imgeventsub img{
+   
+    margin: auto;
+    height: 400px;
+    
+}
+#imagesub{
+    width:100%;
+}
