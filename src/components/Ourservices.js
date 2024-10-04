@@ -41,17 +41,17 @@ const Ourservices = () => {
                     </div>
                     
                    
-                    <div className="col-6 col-sm-6 col-md-6 col-lg-3  col-xl-3 col-xxl-3">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-3  col-xl-3 col-xxl-3">
                     <img
-                  className="img-fluid mt-5 mb-5 img5"
+                  className="img-fluid mt-5  img5"
                   
                   src={serviceone}
                   alt="Himalayas"
                 />
                     </div>
-                    <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                     <img
-                  className="img-fluid mt-5 img5"
+                  className="img-fluid mt-5 mb-2 img5"
                   
                   src={servicetwo}
                   alt="Himalayas"

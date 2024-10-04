@@ -41,10 +41,10 @@ const Expertise = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className="img-expertise"><img className='img-expertise' src={exptwo} alt=""/></div>
-                        <div className="img-expertise"><img className='img-expertise' src={expone} alt=""/></div>
+                        <div className="img-expertise"><img className='img-fluid img-expertise my-2 ' src={exptwo} alt=""/></div>
+                        <div className="img-expertise mt-2"><img className='img-fluid img-expertise my-2 ' src={expone} alt=""/></div>
                     </div>
-                    <div className=''>
+                    <div className='mt-2'>
                                 <img className='img-expertiseone img-fluid my-2' src={expthree} alt=""/>
                             </div>
                 </div>
