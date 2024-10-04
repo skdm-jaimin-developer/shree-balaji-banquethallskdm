@@ -46,7 +46,7 @@ const Ourservices = () => {
                   className="img-fluid mt-5  img5"
                   
                   src={serviceone}
-                  alt="Himalayas"
+                  alt="Shree Balaji Banquet Hall"
                 />
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -54,9 +54,9 @@ const Ourservices = () => {
                   className="img-fluid mt-5 mb-2 img5"
                   
                   src={servicetwo}
-                  alt="Himalayas"
+                  alt="Shree Balaji Banquet Hall"
                 />
-                    </div>
+                    </div> 
                    
                 </div>
             
