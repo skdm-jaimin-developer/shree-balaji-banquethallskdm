@@ -13,7 +13,7 @@ const Footeer = () => {
       <div className='container'>
       <div className='row justify-content-evenly' style={{backgroundColor:'black',color:'var(--primary-color)'}}>
           <div className='col-12 col-md-6 col-lg-3 col-xlg-3 col-xxlg-3 mt-3 p-2'>
-            <img src={logo} className='mb-2' style={{height:'7vh'}} alt='Himalaya'/> <br/>
+            <img src={logo} className='mb-2' style={{height:'7vh'}} alt='shreebalajihospitality'/> <br/>
             <span> <FaInstagram style={{color:'white',fontSize:'25px'}} /> </span>
             <span> <FaFacebook style={{color:'white',fontSize:'25px'}} /> </span> 
             <span> <FaGoogle  style={{color:'white',fontSize:'25px'}} /> </span>  
@@ -47,7 +47,7 @@ const Footeer = () => {
       </div>
       <div className='row justify-content-evenly' style={{backgroundColor:'black',color:'var(--primary-color)'}}>
           <div className='col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6 p-2'>
-          <h6 className='text-center  p-1'>Copyright © 2024, All Right Reserved Himalayas Hospitality | Catering
+          <h6 className='text-center  p-1'>Copyright © 2024, All Right Reserved Shree Balaji Hospitality
           </h6>
           </div>
           <div className='col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6 p-2'>

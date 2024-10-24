@@ -24,7 +24,7 @@ const Galleryimg = () => {
                     (imggallery,i)=>(
                         
                             <div  className="col-12 col-md-6 col-lg-4 col-xlg-4 col-xxlg-4 p-2" style={{margin:'auto'}} >
-                            <Image src={imggallery.img}  id="imagesub" className="img-fluid "  style={{height:'300px',borderRadius:'10px'}}/>
+                            <Image src={imggallery.img}  id="imagesub" className="img-fluid " alt='img'  style={{height:'300px',borderRadius:'10px'}}/>
                             </div>
                         
                     )
