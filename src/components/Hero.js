@@ -6,9 +6,9 @@ const Hero = () => {
     <div>
       <div className='row mt-2 ' style={{marginRight:'0'}}>
         <div className='col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  mt-5 p-5  '>
-            <h1 className='text-center mt-2 display-2' style={{color:'var(--secondary-color)'}}>
+            <h2 className='text-center mt-2 display-2' style={{color:'var(--secondary-color)'}}>
                 Himalayas
-            </h1>
+            </h2>
             <h4 className='text-center display-6 ' style={{color:'var(--secondary-color)'}}>
                 Hospitality Service |
                 <br/> Catering Service

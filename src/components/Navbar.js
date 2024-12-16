@@ -17,15 +17,15 @@ const Navbar = () => {
       >
         <div className="container">
         <span>
-            <NavLink style={{color:'black'}} to='mailto:shreebalajihospitality2703@gmail.com'><p style={{display:'inline' ,float:'start'}} ><IoIosMail  className="my-1 mx-1" color="var(--primary-color)"/>shreebalajihospitality2703@gmail.com
+            <NavLink style={{color:'black'}} to='mailto:shreebalajihospitality2703@gmail.com'><p style={{display:'inline' ,float:'start'}} ><IoIosMail  className="my-1" color="var(--primary-color)"/>shreebalajihospitality2703@gmail.com
             </p></NavLink>
-            <NavLink style={{color:'black'}} to='tel:7678014775'><p  className="navtwono">< IoCall  className="my-1 mx-1" color="var(--primary-color)"/>
+            <NavLink style={{color:'black'}} to='tel:7678014775'><p  className="navtwono">< IoCall  className="my-1" color="var(--primary-color)"/>
             7678014775</p>   </NavLink>
         </span>
     <span>
         <FaGoogle className="navicons"/>
-        <FaFacebook className="navicons"/>
-        <FaInstagram className="navicons"/>
+        <a href='https://www.facebook.com/shreebalajinxbanquet' target='_blank'><FaFacebook className="navicons"/></a>
+        <a href='https://www.instagram.com/shreebalajinxbanquet/profilecard/?igsh=Y3R3ZnlyOGN3OHp1' target='_blank'><FaInstagram className="navicons"/></a>
     </span>
         </div>
       </nav>

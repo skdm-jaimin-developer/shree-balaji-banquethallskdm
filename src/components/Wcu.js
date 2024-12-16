@@ -23,12 +23,12 @@ const Wcu = () => {
               <img className="img-fluid p-2 imga" 
               style={{maxWidth:'auto',height:"auto"}}
               src={wcuone} alt="" />
-              <h1
+              <h2
                 className="text-center  display-6"
                 style={{ color: "var(--primary-color)" }}
               >
                 555+
-              </h1>
+              </h2>
               <h5
                 className="text-center  "
                 style={{ color: "var(--primary-color)" }}
@@ -44,12 +44,12 @@ const Wcu = () => {
                
             >
               <img className="img-fluid p-2 imga" src={wcutwo} alt="" />
-              <h1
+              <h2
                 className="text-center  display-6"
                 style={{ color: "var(--primary-color)" }}
               >
                 55+
-              </h1>
+              </h2>
               <h5
                 className="text-center   "
                 style={{ color: "var(--primary-color)" }}
@@ -65,12 +65,12 @@ const Wcu = () => {
                
             >
               <img className="img-fluid p-2 imga" src={wcuthree} alt="" />
-              <h1
+              <h2
                 className="text-center   display-6"
                 style={{ color: "var(--primary-color)" }}
               >
                 5+
-              </h1>
+              </h2>
               <h5
                 className="text-center   "
                 style={{ color: "var(--primary-color)" }}
@@ -86,12 +86,12 @@ const Wcu = () => {
                
             >
               <img className="img-fluid p-2 imga" src={wcufour} alt="" />
-              <h1
+              <h2
                 className="text-center   display-6"
                 style={{ color: "var(--primary-color)" }}
               >
                 5+
-              </h1>
+              </h2>
               <h5
                 className="text-center   "
                 style={{ color: "var(--primary-color)" }}

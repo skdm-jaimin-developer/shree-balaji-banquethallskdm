@@ -1,5 +1,5 @@
 import React from "react";
-import Contactimg from "./Imagess/Contact.jpeg";
+import Contactimg from "./Imagess/bannerthree.jpg";
 import './Contactuscard.css';
 const Contactuscard = (props) => {
   return (
@@ -8,13 +8,13 @@ const Contactuscard = (props) => {
         className=" container justify-content-center my-5"
         style={{ backgroundColor: "black" ,position:'relative',height:'500 px' }}
       >
-        <img src={Contactimg} className="img-fluid " alt="img" style={{opacity:'.5',width:'100%' ,height:'500px'}}/>
+        <img src={Contactimg} className="img-fluid " alt="img" style={{opacity:'.5',width:'100%' ,height:'500px',objectFit:'cover'}}/>
         
         <form className="   p-5 formcontact">
-        <h1 style={{
+        <h2 style={{
           color:'white'
           ,fontFamily:'var(--head-font)'
-        }} className="text-center display-6 ">{props.title}</h1>
+        }} className="text-center display-6 ">{props.title}</h2>
           <div className="form-floating mb-3 mt-5 " >
             <input
               type="email"

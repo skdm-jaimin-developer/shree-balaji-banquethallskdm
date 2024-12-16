@@ -8,7 +8,8 @@ const Galleryimg = () => {
     const[category,setCategory]=useState('all');
   return (
     <>
-    <div className="container my-5" style={{backgroundColor:'#453F78',borderRadius:'10px'}}>
+    <div className='my-5' style={{backgroundColor:'#453F78'}}>
+    <div className="container py-5" style={{backgroundColor:'#453F78',borderRadius:'10px'}}>
             <div className="py-2" style={{display:'flex', margin:"auto"}}>
                 <div style={{display:'flex', margin:"auto"}}>
                 <button className='btn mx-2  filterbutton' onClick={()=>setCategory('all')}> All</button>
@@ -36,6 +37,7 @@ const Galleryimg = () => {
 
                
              </Image.PreviewGroup>   
+            </div>
             </div>
             </div>
     </>

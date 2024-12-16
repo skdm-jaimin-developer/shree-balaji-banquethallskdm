@@ -1,6 +1,6 @@
 import React from "react";
-import carouselthree from "./Imagess/carouselthree.jpeg";
-import pdeone from "./Imagess/pdeone.jpeg";
+import carouselthree from "./Imagess/aboutonee.jpg";
+import pdeone from "./Imagess/abouttwoo.jpg";
 import "./Aboutimg.css";
 const Aboutimg = () => {
   return (
@@ -60,7 +60,7 @@ const Aboutimg = () => {
                   textAlign: "center",
                 }}
               >
-                <h1
+                <h2
                   className="text-center"
                   style={{
                     fontFamily: "var(--head-font)",
@@ -68,7 +68,7 @@ const Aboutimg = () => {
                   }}
                 >
                  Your Celebration, Our Passion
-                </h1>
+                </h2>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Aboutimg = () => {
                   textAlign: "center",
                 }}
               >
-                <h1
+                <h2
                   className="text-center"
                   style={{
                     fontFamily: "var(--head-font)",
@@ -129,7 +129,7 @@ const Aboutimg = () => {
                   }}
                 >
                   Comfort Meets Convenience
-                </h1>
+                </h2>
               </div>
             </div>
           </div>

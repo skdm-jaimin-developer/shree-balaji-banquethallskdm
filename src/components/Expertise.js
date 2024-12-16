@@ -1,9 +1,9 @@
 import React from 'react'
 import './Expertise.css'
 import { NavLink } from 'react-router-dom'
-import expone from './Imagess/expone.jpeg'
-import exptwo from './Imagess/exptwo.jpeg'
-import expthree from './Imagess/expthree.jpg'
+import expone from './Imagess/homeexpone.jpg'
+import exptwo from './Imagess/homeexptwo.jpg'
+import expthree from './Imagess/homeexpthree.jpg.jpeg'
 const Expertise = () => {
   return (
     <>
@@ -15,16 +15,16 @@ const Expertise = () => {
                         <div className="galleryLink">
                             <div className="gallContent">
                                 <h6 className=' p-3 pt-5 Ep'>Expertise in</h6>
-                                <h1 className=' px-2 Eh'>Banquet Service | <br/>Hospitality Service </h1>
-                                <p className=' px-2 mt-5 lead Et'>
-                                Experience elegance and warmth at our banquet hall, where every event is tailored to your vision. Our hospitality service ensures a seamless experience, from exquisite catering to attentive staff. Whether it’s a wedding, corporate gathering, or special celebration, we’re dedicated to making your occasion unforgettable. Let us help you create lasting memories!
-                                     </p>
-                                <p className=' px-2 lead Et'>
-                                Enhance your experience with our comfortable room accommodations, perfect for guests attending events at our banquet hall. Our inviting rooms are equipped with modern amenities and cozy furnishings to ensure a restful stay. Whether you’re here for a wedding, corporate event, or family gathering, enjoy the convenience of on-site lodging. Relax and recharge with us, making your visit truly seamless and enjoyable!
+                                <h2 className=' px-2 Eh'>Banquet Service | <br/>Hospitality Service </h2>
+                                <p className=' px-2 mt-5 lead Et' style={{textAlign:"justify"}}>
+                                Our Banquet Hall in Bhayandar West is equipped with state-of-the-art amenities and a sophisticated ambiance that suits all types of occasions. Whether you’re planning an intimate gathering or a grand celebration, we offer customizable spaces to meet your specific needs. Our spacious hall can accommodate both small and large guest lists, ensuring everyone feels welcome and comfortable. The modern décor, lighting, and sound system add a touch of luxury to your event, while our in-house team ensures everything runs smoothly from start to finish.
+                                </p>
+                                <p className=' px-2 lead Et' style={{textAlign:"justify"}}>
+                                At Shree Balaji Banquet, we understand that every event is unique, which is why we offer a range of services to help bring your vision to life. From catering and decor to event coordination, our experienced team is here to assist you in creating a personalised experience that exceeds expectations. As one of the top Banquet Halls in Bhayandar West, we pride ourselves on providing exceptional service, delicious food, and a setting that will leave a lasting impression on your guests.
                                 </p>
                                
-                                <p className=' px-2 lead Et'>
-                                Indulge your guests with our exceptional catering service, designed to elevate any event at our banquet hall. We offer a diverse menu featuring delicious, high-quality dishes, customizable to suit your tastes and dietary needs. From appetizers to desserts, our culinary team ensures every bite is a delight. Combined with our warm hospitality, we’re committed to making your event a memorable culinary experience!
+                                <p className=' px-2 lead Et' style={{textAlign:"justify"}}>
+                                Book your event with Shree Balaji Banquet today and let us turn your special occasion into a beautiful memory. Our commitment to excellence ensures that every detail is taken care of, so you can enjoy your celebration without worry.
                                 </p>
                                 {/* <p className=' px-2 lead Et'>
                                 Professional Staffing: Our  team is experienced and professional, ensuring that every interaction reflects our commitment to excellence. 
@@ -40,7 +40,7 @@ const Expertise = () => {
                             
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 p-5">
                         <div className="img-expertise"><img className='img-fluid img-expertise my-2 ' src={exptwo} alt=""/></div>
                         <div className="img-expertise mt-2"><img className='img-fluid img-expertise my-2 ' src={expone} alt=""/></div>
                     </div>

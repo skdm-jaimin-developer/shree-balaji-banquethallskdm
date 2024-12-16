@@ -10,20 +10,21 @@ const Eventone = () => {
                         <h6 style={{color:'var(--secondary-color)',
                             fontFamily:'var(--para-font)'
                         }}>Event</h6>
-                        <h1 className='display-3' style={{color:'var(--secondary-color)',
+                        <h2 className='display-3' style={{color:'var(--secondary-color)',
                             fontFamily:'var(--head-font)'
                         }}>
                             
                             Our <br />
                             Events 
-                        </h1>
+                        </h2>
                     </div>
                     <div className="col-md-6 d-none d-md-block">
                         <br />
                         <p className='lead ' style={{color:'var(--secondary-color)',
                             fontFamily:'var(--para-font)'
                         }}>
-                             Welcome to Shree Balaji Banquet Hall, where unforgettable moments come to life! Our banquet hall offers the perfect setting for weddings, corporate events, and special celebrations.Extend your stay in our comfortable accommodations, designed for relaxation and convenience.
+                           Host Your Unforgettable Events at Shree Balaji NX Banquet
+
                         </p>
                         <div >
                             <NavLink to="/roomstay"><button className="btn my-2 mb-2"  style={

@@ -15,12 +15,12 @@ import Swipersliderdiv from "./Swipersliderdiv";
 export default function Carousel() {
   return (
     <>
-      <h1
+      <h2
         className="display-5 text-center"
         style={{ fontFamily: "var(--head-font)", color: "black" }}
       >
         -Testinomals-
-      </h1>
+      </h2>
       <h3
         className=" text-center"
         style={{ fontFamily: "var(--head-font)", color: "black" }}
@@ -44,7 +44,7 @@ export default function Carousel() {
           // grid={{
           //   rows: 1,
           // }}
-          spaceBetween={30}
+          spaceBetween={20}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

@@ -7,7 +7,7 @@
 }
 .navbar-toggler{
     border: none;
-    color: white;
+    color: black;
 }
 .navbar-toggler:focus{
     box-shadow: none;

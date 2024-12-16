@@ -3,9 +3,9 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import carouselone from './Imagess/carouselone.jpeg'
-import carouseltwo from './Imagess/carouseltwo.jpeg'
-import carouselthree from './Imagess/carouselthree.jpeg'
+import carouselone from './Imagess/bannerone.jpg'
+import carouseltwo from './Imagess/bannertwo.jpg'
+import carouselthree from './Imagess/bannerthree.jpg'
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import './Carouselhero.css'
@@ -34,9 +34,9 @@ const Carouselhero = () => {
         <div className="image-container">
       <img src={carouselone} alt="img" className="image" />
       <div className="overlay">
-        <h5 className='p-2'>Since 10 years</h5>
-        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> Banquet Hall</h1>
-        <h5 className='p-2'>"Where Every Celebration Becomes a Cherished Memory!"</h5>
+        <h5 className='p-2'>Welcome to</h5>
+        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> NX Banquet</h1>
+        <h5 className='p-2'>"The Perfect Venue for Your Special Celebrations"</h5>
       </div>
     </div>
           
@@ -45,9 +45,9 @@ const Carouselhero = () => {
         <div className="image-container">
       <img src={carouseltwo} alt="img" className="image" />
       <div className="overlay">
-        <h5 className='p-2'>Since 10 years</h5>
-        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> Banquet Hall</h1>
-        <h5 className='p-2'>"Where Every Celebration Becomes a Cherished Memory!"</h5>
+        <h5 className='p-2'>Welcome to</h5>
+        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> NX Banquet</h1>
+        <h5 className='p-2'>"The Perfect Venue for Your Special Celebrations"</h5>
       </div>
     </div>
         </SwiperSlide>
@@ -55,9 +55,9 @@ const Carouselhero = () => {
         <div className="image-container">
       <img src={carouselthree} alt="img" className="image" />
       <div className="overlay">
-        <h5 className='p-2'>Since 10 years</h5>
-        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> Banquet Hall</h1>
-        <h5 className='p-2'>"Where Every Celebration Becomes a Cherished Memory!"</h5>
+        <h5 className='p-2'>Welcome to</h5>
+        <h1 className='p-2 display-1' style={{fontFamily:'var(--head-font)'}}>Shree Balaji <br/> NX Banquet</h1>
+        <h5 className='p-2'>"The Perfect Venue for Your Special Celebrations"</h5>
       </div>
     </div>
         </SwiperSlide>

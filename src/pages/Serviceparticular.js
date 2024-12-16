@@ -18,7 +18,7 @@ const Serviceparticular = () => {
         return (
           <>
             <div className="container my-5" key={i}>
-              <Image.PreviewGroup>
+              
                 <div className="row">
                   <div
                     className="col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6"
@@ -32,14 +32,6 @@ const Serviceparticular = () => {
                         src={data.image[0]}
                       />
                     </div>
-
-                    {/* <span className="mx-auto">
-                {data.image.slice(1,5).map(dataimg=>{
-                    return(
-                        <Image key={dataimg} style={{ width: 100, height: 100 }} src={dataimg} />
-                    )
-                })}
-              </span> */}
                   </div>
                   <div
                     className="col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6"
@@ -55,58 +47,47 @@ const Serviceparticular = () => {
                     >
                       {data.title}
                     </h1>
-                    {/* <h5 className=" p-2" style={{color:'var(--secondary-color)'}}>
-                  Price Starting at ₹{data.price}
-                </h5> */}
+                  
                     <h5>
-                      <p
+                      {/* <p
                         className="lead p-2"
                         key={i}
                         style={{ color: "var(--secondary-color)" }}
                       >
                         {data.desc}
+                      </p> */}
+                      <p
+                        className="lead p-2"
+                        style={{ color: "var(--primary-color)" ,textAlign:"justify" }}
+                      >
+                        {data.desc[0]}
                       </p>
                       <p
                         className="lead p-2"
-                        style={{ color: "var(--primary-color)" }}
+                        style={{ color: "var(--primary-color)" ,textAlign:"justify" }}
                       >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Itaque cum sunt aspernatur esse nam voluptatibus, quasi
-                        mollitia dignissimos culpa optio illo, maiores in,
-                        dolorum reprehenderit suscipit architecto praesentium
-                        hic quaerat?
+                       {data.desc[1]}
+
                       </p>
-                      <p
-                        className="lead p-2"
-                        style={{ color: "var(--primary-color)" }}
-                      >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Itaque cum sunt aspernatur esse nam voluptatibus, quasi
-                        mollitia dignissimos culpa optio illo, maiores in,
-                        dolorum reprehenderit suscipit architecto praesentium
-                        hic quaerat?
-                      </p>
-                      <p
-                        className="lead p-2"
-                        style={{ color: "var(--primary-color)" }}
-                      >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Itaque cum sunt aspernatur esse nam voluptatibus, quasi
-                        mollitia dignissimos culpa optio illo, maiores in,
-                        dolorum reprehenderit suscipit architecto praesentium
-                        hic quaerat?
-                      </p>
+                     
                     </h5>
-                    {/* {data.feature.slice(0,5).map(datafeature=>{
-                      return(
-                          <ul>
-                              <li>{datafeature}</li>
-                          </ul>
-                      )
-                  })} */}
+                   
                   </div>
                 </div>
-              </Image.PreviewGroup>
+                <p
+                        className="lead p-2"
+                        style={{ color: "var(--primary-color)" ,textAlign:"justify"}}
+                      >
+                        {data.desc[2]}
+
+                      </p>
+                      <p
+                        className="lead p-2"
+                        style={{ color: "var(--primary-color)" ,textAlign:"justify"}}
+                      >
+                       {data.desc[3]}
+
+                      </p>
             </div>
 
             <div className="container mt-5">
@@ -127,10 +108,10 @@ const Serviceparticular = () => {
                 <br />
               </div>
             </div>
-
+<div className='my-5' style={{ backgroundColor: "#453F78" }}>
             <div
-              className="container my-5"
-              style={{ backgroundColor: "#453F78", borderRadius: "10px" }}
+              className="container py-5"
+              
             >
               <div className="py-2">
                 <h2
@@ -162,6 +143,7 @@ const Serviceparticular = () => {
                     );
                   })}
                 </Image.PreviewGroup>
+              </div>
               </div>
             </div>
             <Contactuscard title="Connect With Us" />

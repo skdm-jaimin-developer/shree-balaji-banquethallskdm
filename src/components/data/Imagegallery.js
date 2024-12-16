@@ -1,35 +1,48 @@
-import carouselone from '../Imagess/carouselone.jpeg'
-import carouseltwo from '../Imagess/carouseltwo.jpeg'
-import connect from '../Imagess/connect.jpg'
-import Contact from '../Imagess/Contact.jpeg'
-import expone from '../Imagess/expone.jpeg'
-import exptwo from '../Imagess/exptwo.jpeg'
-import expthree from '../Imagess/expthree.jpg'
-import Serviceone from '../Imagess/serviceone.jpeg'
-import Servicetwo from '../Imagess/servicetwo.jpeg'
+import one from '../Imagess/wedding.jpg'
+import two from '../Imagess/birthday.jpg'
+import three from '../Imagess/corporateevents.jpg'
+import four from '../Imagess/engagement.jpeg'
+import five from '../Imagess/sangeet.jpg'
+import six from '../Imagess/namingceremony.jpg'
+import seven from '../Imagess/homeservicetwo.jpg'
+import eight from '../Imagess/homeexptwo.jpg'
+import exptwo from '../Imagess/catering.jpg'
+
 const Imagegallery=[
     {
-        img:carouselone,
+        img:one,
         category:'banquet'
     },
     {
-        img:carouseltwo,
+        img:two,
         category:'banquet'
     },
     {
-        img:connect,
+        img:three,
+        category:'banquet'
+    },
+     {
+        img:four,
         category:'banquet'
     },
     {
-        img:expone,
+        img:five,
+        category:'banquet'
+    },
+    {
+        img:six,
+        category:'banquet'
+    },
+    {
+        img:seven,
         category:'roomstay'
     },
     {
-        img:Contact,
+        img:eight,
         category:'roomstay'
     },
     {
-        img:Servicetwo,
+        img:seven,
         category:'roomstay'
     },
     {
@@ -37,11 +50,11 @@ const Imagegallery=[
         category:'catering'
     },
     {
-        img:expthree,
+        img:exptwo,
         category:'catering'
     },
     {
-        img:Serviceone,
+        img:exptwo,
         category:'catering'
     },
 ]

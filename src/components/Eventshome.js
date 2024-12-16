@@ -1,5 +1,5 @@
 import React from "react";
-import serviceone from "./Imagess/serviceone.jpeg";
+import serviceone from "./Imagess/homeserviceone.jpg";
 import { NavLink } from "react-router-dom";
 
 const Eventshome = () => {
@@ -17,13 +17,13 @@ const Eventshome = () => {
                 position: "absolute",
               }}
             ></div>
-            <div>
+            <div className="p-3">
               {" "}
               <img
                 src={serviceone}
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "450px",objectFit:'cover' ,borderRadius:'16px'}}
                 alt="img"
-                className="img-fluid p-3 "
+                className="img-fluid "
               />
             </div>
           </div>

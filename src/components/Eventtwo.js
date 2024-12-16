@@ -16,17 +16,17 @@ const Eventtwo = (props) => {
             ></div>
         <div className="row justify-content-evenly">
             
-          <div className="col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6 mb-5" style={{display:'flex',margin:'auto'}}>
+          <div className="col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6 mb-5 p-4" style={{display:'flex',alignItems:'center'}}>
             
-            <div>
+            
               {" "}
               <img
                 src={props.imgsource}
-                style={{ width: "100%", height: "500px" }}
+                style={{ width: "100%", height: "400px",objectFit:'cover',borderRadius:'16px' }}
                 alt="img"
-                className="img-fluid p-3 "
+                className="img-fluid  "
               />
-            </div>
+           
           </div>
           <div className="col-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
             <h2

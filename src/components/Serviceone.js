@@ -3,19 +3,20 @@ import logo from './Imagess/logo.png'
 const Serviceone = () => {
   return (
     <>
-      <div style={{ backgroundColor: "#453F78" }}>
+      <div >
         <div className="container one px-4 pt-4">
           <div className="row pt-4" style={{ backgroundColor: "black" }}>
             <div className="col-12 col-md-6 p-1 p-1">
               <p className="p-1" style={{ color: "var(--secondary-color)" }}>
                 Our Service
               </p>
-              <h1
+              <h2
                 className="display-6 text-center p-5"
                 style={{ fontFamily: "var(--head-font)",color:'var(--secondary-color)' }}
               >
-                Designing <br /> An <br /> Experience
-              </h1>
+               Our Services: Exceptional Experiences at Shree Balaji NX Banquet
+
+              </h2>
             </div>
             <div className="col-12 col-md-6 p-1">
               <img
@@ -31,19 +32,19 @@ const Serviceone = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "#453F78" }}>
+      {/* <div style={{ backgroundColor: "#453F78" }}>
         <div
           className="container py-2 "
           style={{ backgroundColor: "lightgrey" }}
         >
           <div className="row p-1" style={{ backgroundColor: "black" }}>
             <div className="col-12 col-md-6 p-1 p-1">
-              <h1
+              <h2
                 className="text-center pt-5"
                 style={{ fontFamily: "var(--head-font)",color:'var(--secondary-color)' }}
               >
                 Lorem 
-              </h1>
+              </h2>
               <p
                 className="text-center"
                 style={{ fontFamily: "var(--para-font)", color: "var(--secondary-color)" }}
@@ -63,12 +64,12 @@ const Serviceone = () => {
             </div>
 
             <div className="col-12 col-md-6 p-1">
-            <h1
+            <h2
                 className="text-center pt-5"
                 style={{ fontFamily: "var(--head-font)",color:'var(--secondary-color)' }}
               >
                 Lorem 
-              </h1>
+              </h2>
               <p
                 className="text-center"
                 style={{ fontFamily: "var(--para-font)", color: "var(--secondary-color)" }}
@@ -90,12 +91,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
           <div className="row p-1" style={{ backgroundColor: "black" }}>
-            <div className="col-12 col-md-6 p-1 "><h1
+            <div className="col-12 col-md-6 p-1 "><h2
                 className="text-center pt-5"
                 style={{ fontFamily: "var(--head-font)",color:'var(--secondary-color)' }}
               >
                 Lorem
-              </h1>
+              </h2>
               <p
                 className="text-center"
                 style={{ fontFamily: "var(--para-font)", color: "var(--secondary-color)" }}
@@ -115,13 +116,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
               </p></div>
             <div className="col-12 col-md-6 p-1 py-5">
-            <h1
+            <h2
                 className="text-center "
                 style={{ fontFamily: "var(--head-font)",color:'var(--secondary-color)' }}
               >
                 Lorem 
 
-              </h1>
+              </h2>
               <p
                 className="text-center"
                 style={{ fontFamily: "var(--para-font)", color: "var(--secondary-color)" }}
@@ -139,7 +140,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

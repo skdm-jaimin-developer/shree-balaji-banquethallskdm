@@ -10,12 +10,12 @@ const Footeer = () => {
   return (
     <>
     <div className='container-fluid' style={{backgroundColor:'black'}}>
-      <div className='container'>
-      <div className='row justify-content-evenly' style={{backgroundColor:'black',color:'var(--primary-color)'}}>
+      <div className='container '>
+      <div className='row justify-content-evenly py-5' style={{backgroundColor:'black',color:'var(--primary-color)'}}>
           <div className='col-12 col-md-6 col-lg-3 col-xlg-3 col-xxlg-3 mt-3 p-2'>
             <img src={logo} className='mb-2' style={{height:'7vh'}} alt='shreebalajihospitality'/> <br/>
-            <span> <FaInstagram style={{color:'white',fontSize:'25px'}} /> </span>
-            <span> <FaFacebook style={{color:'white',fontSize:'25px'}} /> </span> 
+            <span><a href='https://www.instagram.com/shreebalajinxbanquet/profilecard/?igsh=Y3R3ZnlyOGN3OHp1' target='_blank'></a> <FaInstagram style={{color:'white',fontSize:'25px'}} /> </span>
+            <span><a href='https://www.facebook.com/shreebalajinxbanquet' target='_blank'></a> <FaFacebook style={{color:'white',fontSize:'25px'}} /> </span> 
             <span> <FaGoogle  style={{color:'white',fontSize:'25px'}} /> </span>  
           </div>
           <div className='col-12 col-md-6 col-lg-3 col-xlg-3 col-xxlg-3 mt-3 p-2'>

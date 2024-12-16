@@ -1,6 +1,6 @@
 import React from "react";
-import serviceone from "./Imagess/serviceone.jpeg";
-import servicetwo from "./Imagess/servicetwo.jpeg";
+import serviceone from "./Imagess/homeserviceone.jpg";
+import servicetwo from "./Imagess/homeservicetwo.jpg";
 import "./Ourservices.css";
 import { NavLink } from "react-router-dom";
 const Ourservices = () => {
@@ -15,24 +15,24 @@ const Ourservices = () => {
                 <div className="row mt-5">
                   
                     <div className="col-12 col-sm-12 col-md-12 col-lg-6  col-xl-6 col-xxl-6">
-                    <h1
-                  className="text-center mt-5"
+                    <h2
+                  className=" mt-5 p-2"
                   style={{ color: "var(--secondary-color)" ,fontFamily:'var(--head-font)' }}
                 >
-                  - Our services -
-                </h1>
-                <h3
+                  Our services 
+                </h2>
+                {/* <h3
                   className="text-center mb-5 mt-4"
                   style={{ color: "var(--secondary-color)" }}
                 >
                   "Your One-Stop Destination for Unforgettable Celebrations, Exquisite Catering, and Comfortable Stays!"
-                </h3>
+                </h3> */}
                 <p
-                  className="text-center lead mb-5"
-                  style={{ color: "var(--secondary-color)" }}
+                  className="p-2 lead mb-5"
+                  style={{ color: "var(--secondary-color)",textAlign:'justify ' }}
                 >
-                  Giving every attendee a memorable and meaningful event
-                  experience is our main motto.
+                  Looking for an exquisite Banquet Hall in Bhayandar West? Shree Balaji Banquet offers the ideal space to host your most cherished events, from weddings and anniversaries to corporate functions and family gatherings. Located in the heart of Bhayandar West, our venue is designed to provide a memorable experience, combining elegance, comfort, and outstanding service. With years of experience in hosting successful events, we are dedicated to making your celebration truly unforgettable.
+
                 </p>
 
                 <NavLink to='/services' style={{textDecoration:'none'}}><button className="btn mt-5" id="kmone">
